@@ -9,7 +9,7 @@ cd ..
 # 4 - What is a quick way to create a new folder?
 mkdir "name"
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
-No output
+No output;        SORRY! so bad at reading things off screen. With files in it you'd see a list of file names and extensions.
 # 6 - What is a quick way to create a new file?
 touch
 # 7 - Run 'git --version' in your terminal. What is the output?
@@ -20,3 +20,6 @@ To see what changes are yet to be committed or have changed
 stages all files in a local working repository for commit
 # 10 - What is the command to push your committed changes to your repo on GitHub?
 git commit -m "with a message"
+
+
+git push origin main if your're looking to commit to the main branch of a repository, otherwise git push origin 'branch name'
